@@ -1,23 +1,66 @@
 #container {
     width:100%;
-    font-family: ralewaylight, sans-serif;
+    font-family:ralewaylight, sans-serif;
 }
 
-nav {
+#top {
     color:white;
     height:40px;
     background-color:black;
+    position:relative;
+}
 
+ #container #top p {
+     position:absolute;
+     top:10px;
+     left:60px;
 }
 
 #on {color:#27c7ab;
+    font-family: ralewayblack, sans-serif;
   }
 
-li {
-    display:inline-block;
-    float:right;
-    padding:5px;
+nav {
+    position:absolute;
+    top:-8px;
+    left:660px;
+
 }
+
+nav ul li {
+    display:inline-block;
+    padding:20px;
+    font-family:ralewaymedium, sans-serif;
+    font-size:14px;
+}
+
+#black_square {
+    position:absolute;
+    top:50px;
+    left:680px;
+    background-color: black;
+    color:white;
+    width:80px;
+    height:70px;
+    font-size:12px;
+}
+
+#pointer {
+    width:13px;
+    height:13px;
+    background-color:black;
+    transform:rotate(45deg);
+    position:absolute;
+    top:-6px;
+    left:30px;
+
+}
+
+#container #top div ul li {
+    padding-top:8px;
+    padding-left:6px;
+}
+
 
 #arr1,#arr2 {
 
