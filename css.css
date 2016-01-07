@@ -232,7 +232,7 @@ h1 span {
     padding-left:18px;
 
 }
-#inside, #inside2, #inside3 {
+#inside1, #inside2, #inside3 {
     background-color: #24BA9F;
     position:absolute;
     top:33px;
@@ -288,7 +288,7 @@ h2 {
     position:relative;
 }
 
-h3 {
+  h3 {
     font-weight: bold;
     font-size:25px;
     display:block;
@@ -709,18 +709,117 @@ h3 {
     border-radius: 8%;
     font-size:14px;
     color:white;
-
-
     font-family: raleway-extrabold, sans-serif;
 
 }
 
-
-
 #contact {
-
     height:540px;
-    background-color:white;
+    background-color:#FFFFFF;
+    position:relative;
+}
+
+#left {
+    width:760px;
+    float:left;
+}
+
+
+input {
+    height:70px;
+    width:635px;
+    border: 1px solid #27c7ab;
+    position:absolute;
+    left:70px;
+    font-size:28px;
+    font-family: raleway-extralight, sans-serif;
 
 }
 
+input[name=imie]{
+    position:absolute;
+    top:115px;
+
+
+}
+input[name=email]{
+    position:absolute;
+    top:215px;
+
+}
+input[name=wiadomosc]{
+    position:absolute;
+    top:315px;
+    height:190px;
+}
+
+::-webkit-input-placeholder {
+    color:#CDCDCD;
+}
+#right {
+    width:440px;
+    float:left;
+}
+
+#right>img {
+    position:absolute;
+    top:110px;
+    left:800px;
+}
+
+#right img:nth-child(2){
+    position:absolute;
+    top:340px;
+    left:760px;
+    border:1px solid #27C7AB;
+}
+
+
+
+#right p{
+    position:absolute;
+    top: 350px;
+    left:825px;
+    font-family:ralewa-extralight, sans-serif;
+    color:#CACACA;
+}
+
+input[name="submit"] {
+    width:340px;
+    height:70px;
+    background-color: #27c7ab;
+    border-radius: 8%;
+    position:absolute;
+    left:760px;
+    top:420px;
+    font-weight:100;
+    color:#FFFFFF;
+}
+
+#container footer {
+    position:relative;
+    height:40px;
+    font-size:15px;
+    color:grey;
+    padding-top:50px;
+    padding-left:70px;
+
+}
+
+#container footer div {
+    position:absolute;
+    left:765px;
+    top:40px;
+
+}
+
+#container footer p {
+    position:absolute;
+    left:980px;
+    top:50px;
+    font-size:18px;
+}
+
+#container footer p span {
+    font-weight: 800;
+}
