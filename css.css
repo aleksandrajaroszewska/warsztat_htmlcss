@@ -2,39 +2,33 @@
     width:1200px;
     font-family:ralewaylight, sans-serif;
 }
-
-#top {
+#top {/*górny czarny pasek*/
     color:white;
     height:40px;
     background-color:black;
     position:relative;
 }
-
- #container #top p {
+    #container #top p {/*napis "sit on chair*/
      position:absolute;
      top:10px;
      left:60px;
-}
-
-#on {color:#27c7ab;
+    }
+    #on {color:#27c7ab;
     font-family: ralewayblack, sans-serif;
-  }
+    }
 
 nav {
     position:absolute;
     top:-8px;
     left:830px;
-
 }
-
-nav ul li {
+    nav ul li {
     display:inline-block;
     padding:20px;
     font-family:ralewaymedium, sans-serif;
     font-size:14px;
-}
-
-#black_square {
+    }
+#black_square {/*czarny kwadrat wskazujący nawigację*/
 
     position:absolute;
     top:10px;
@@ -45,8 +39,7 @@ nav ul li {
     height:95px;
     font-size:15px;
 }
-
-#pointer {
+#pointer {/*wskaźnik kwadrata*/
     width:13px;
     height:13px;
     background-color:black;
@@ -55,15 +48,12 @@ nav ul li {
     top:-6px;
     left:50px;
 }
-
-#container #main div ul li {
+#container #main div ul li {/*napisy w czarnym kwadracie*/
     padding-top:12px;
     padding-left:10px;
 }
 
-
 #main {
-
     height:500px;
     position:relative;
     background-color:background: rgba(255,255,255,1);
@@ -74,55 +64,42 @@ nav ul li {
     background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(171,164,171,1) 100%);
     background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(171,164,171,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#aba4ab', GradientType=0 );
-
 }
 
-
-#arr1,#arr2 {
-
+#arr1,#arr2 {/* divy w których znajdują się strzałki po prawej i lewej stronie czarnego fotela*/
     display:block;
     float:left;
     height:480px;
     width:140px;
     position:relative;
 }
-
-#arr1 p {
-
+#arr1 p {/*strzałka lewa*/
     font-size:60px;
     color:#24BA9F;
     position:relative;
     left:67px;
     top:190px;
-
 }
-
-#arr2 p {
-
+#arr2 p {/*strzałka prawa*/
     font-size:60px;
     color:#24BA9F;
     position:relative;
     left:77px;
     top:190px;
-
 }
-
-#chair {
-
+#chair {/*div zawierający czrny fotel*/
     display:block;
     float:left;
     height:480px;
     width:378px;
     position:relative;
 }
-
 #chair img {
     position:relative;
     top:90px;
     left:-45px;
-
 }
-#text {
+#text {/*pole tekstowe*/
     display:block;
     float:left;
     height:260px;
@@ -130,80 +107,57 @@ nav ul li {
     position:relative;
     top:130px;
     left:30px;
-
-
 }
-h1 {
-
+h1 {/*sit on our chair*/
     font-size:40px;
     font-family: raleway-bold, sans-serif;
-
     margin-left:60px;
 }
-
-h1 span {
+h1 span {/*on*/
     color:#27c7ab;
 }
-
-#text p {
-
+#text p {/*tekst*/
     padding:30px;
     font-family: ralewaylight, sans-serif;
     text-align: center;
     font-size:17px;
     margin-top:10px;
     line-height: 22px;
-
-
-
 }
-
- #see {
+ #see {/* napis "zobacz więcej"*/
      background-color:#24BA9F;
      border-radius:10px;
      height:43px;
      width:230px;
-
      margin-left:120px;
      padding-top:20px;
      padding-left:30px;
      font-size:23px;
      color:white;
  }
-
-
-
-#triplet {
-
+#triplet {/*konterner zawierający trzy boxy*/
     height:360px;
     width:1200px;
     background-color:white;
     position:relative;
 }
-
-.box img {
+.box img {/*zdjecie lewe*/
     position:absolute;
     left:65px;
     top:30px;
     height:227px;
     width:328px;
     float:left;
-
 }
-
-.box2 img{
-
+.box2 img{/*zdjęcie środkowe*/
     height:227px;
     width:328px;
     position:absolute;
     float:left;
     top:30px;
     left:420px;
-
-
 }
-
-#clair{
+#clair{/*pole wewnątrz zdjęcia lewego*/
     height:60px;
     width:312px;
     position:absolute;
@@ -215,10 +169,8 @@ h1 span {
     font-family:raleway-extrabold, sans-serif;
     padding-top:18px;
     padding-left:18px;
-
 }
-
-#mar {
+#mar {/*pole wewnątrz zdjęcia środkowego*/
     height:60px;
     width:310px;
     position:absolute;
@@ -230,24 +182,19 @@ h1 span {
     font-family: raleway-extrabold, sans-serif;
     padding-top:18px;
     padding-left:18px;
-
 }
-#inside1, #inside2, #inside3 {
+#inside1, #inside2, #inside3 {/*zielone paski*/
     background-color: #24BA9F;
     position:absolute;
     top:33px;
     height:7px;
     width:136px;
 }
-
 #inside3 {
     margin-left: 28px;
     margin-top:22px;
 }
-
-
-.box3 {
-
+.box3 {/*box z tekstem*/
     height:253px;
     width:342px;
     border: 1px solid #DBDBDB;
@@ -255,9 +202,7 @@ h1 span {
     position:absolute;
     left:775px;
     top:30px;
-
 }
-
 h2 {
     font-family: raleway-extrabold, sans-serif;
     font-weight: bold;
@@ -267,35 +212,33 @@ h2 {
     margin-left: 25px;
     margin-top:30px;
 }
-
-#boxtext1{
+#boxtext1{/*pierwsza częś tekstu*/
     display:block;
     padding:10px;
     margin-top:10px;
     margin-left:15px;
-
+    color:#878787;
+    font-family: raleway-medium, sans-serif;
 }
-#boxtext2{
+#boxtext2{/*druga częś tekstu*/
     display:block;
     padding:10px;
     margin-left:15px;
+    color:#878787;
+    font-family: raleway-medium, sans-serif;
 }
-
-#price{
-
+#price{/*sekcja cennik*/
     height:725px;
     background-color:#F1F1F1;
     position:relative;
 }
-
-  h3 {
+  h3 {/*napis "cennik"*/
     font-weight: bold;
     font-size:25px;
     display:block;
     margin-left:65px;
     padding-top:45px;
     padding-bottom: 10px;
-
 }
 
 #green_line {
@@ -305,24 +248,20 @@ h2 {
     height:11px;
     width:324px;
 }
-
-
-#outside {
+#outside {/*kontener zawierający cenniki*/
     height:600px;
     position:absolute;
     width:90%;
     margin-left:50px;
     margin-top:80px;
 }
-
-#basic {
+#basic {/*lewy cennik*/
     height:500px;
     width:330px;
     border: 3px solid #D8D8D8;
     position:absolute;
     background-color: #F9F9F9;
 }
-
 #basic>p{
     color:#27c7ab;
     font-size: 22px;
@@ -331,8 +270,7 @@ h2 {
     top:30px;
     font-weight:bold;
 }
-
-#point1 {
+#point1{ /*zawieszka lewego cennika*/
     height:60px;
     width:60px;
     border:3px solid #D8D8D8;
@@ -342,8 +280,7 @@ h2 {
     position:absolute;
     background-color:#FCFCFC;
 }
-
-#point1 div {
+#point1 div {/*kropka w zawieszce*/
     height:25px;
     width:25px;
     border:3px solid #D8D8D8;
@@ -353,14 +290,12 @@ h2 {
     left:15px;
     top:14px;
 }
-
-#circle1, #circle2, #circle3 {
+#circle1, #circle2, #circle3 {/*ceny w kołach*/
     font-weight: 600;
     position:absolute;
-
 }
 
-#circle1 {
+#circle1 { /*lewe koło z ceną*/
     width:130px;
     height:130px;
     position:absolute;
@@ -371,35 +306,34 @@ h2 {
     border-radius:50%;
     background-color: #FFFFFF;
     font-family: raleway-bold, sans-serif;
-
 }
 
-#circle1 span:first-child{
+#circle1 span:first-child{/*8*/
     font-size:45px;
     position:absolute;
     left:35px;
     top:35px;
 }
-#circle1 span:nth-child(2){
+#circle1 span:nth-child(2){/*5*/
     font-size:45px;
     position:absolute;
     left:60px;
     top:40px;
 }
-#circle1 span:nth-child(3){
+#circle1 span:nth-child(3){/*99*/
     font-size:15px;
     position:absolute;
     left:85px;
     top:30px;
 }
-#circle1 span:nth-child(4) {
+#circle1 span:nth-child(4) {/*pln/msc*/
     font-size: 15px;
     position:absolute;
     left:30px;
     top: 80px;
 }
 
-#basic div:nth-child(4){
+#basic div:nth-child(4){/*pasek -"zakup +dowóz"*/
     background-color: #E4E4E4;
     height:35px;
     width:285px;
@@ -411,8 +345,7 @@ h2 {
     padding-left:45px;
     padding-top:10px;
 }
-
-#basic div:nth-child(5) {
+#basic div:nth-child(5) { /*pasek "serwis"*/
     background-color: #F1F1F1;
     height: 35px;
     width: 210px;
@@ -424,9 +357,7 @@ h2 {
     padding-left:120px;
     padding-top:10px;
 }
-
-
-#basic div:nth-child(6){
+#basic div:nth-child(6){/*przycisk dołącz*/
     background-color: #27c7ab;
     height:22px;
     padding-top:10px;
@@ -442,7 +373,7 @@ h2 {
 
 }
 
-#standard {
+#standard { /*cennik środkowy*/
     height:500px;
     width:330px;
     border: 3px solid #27C7AB;
@@ -450,8 +381,7 @@ h2 {
     left:360px;
     background-color: #27c7ab;
 }
-
-#standard>p{
+#standard>p{ /*napis standard plac*/
     color:#FFFFFF;
     font-size: 22px;
     position:absolute;
@@ -459,8 +389,7 @@ h2 {
     top:30px;
     font-weight:bold;
 }
-
-#point2 {
+#point2 {/*zawieszka cennika środkowego*/
     height:60px;
     width:60px;
     border:3px solid #27C7AB;
@@ -470,8 +399,7 @@ h2 {
     position:absolute;
     background-color:#27C7AB;
 }
-
-#point2 div {
+#point2 div {/*kropka wewnątrz zawieszki*/
     height:30px;
     width:30px;
     border:3px solid #27C7AB;
@@ -481,8 +409,7 @@ h2 {
     left:13px;
     top:13px;
 }
-
-#circle2 {
+#circle2 { /*koło w cenniku środkowym*/
     width:130px;
     height:130px;
     top:80px;
@@ -492,31 +419,26 @@ h2 {
     background-color: #FFFFFF;
     font-family: raleway-bold, sans-serif;
     color:#27c7ab;
-
 }
-
-#circle2 span:first-child{
+#circle2 span:first-child{/*95*/
     font-size:45px;
     position:absolute;
     left:35px;
     top:30px;
-
 }
-
-#circle2 span:nth-child(2){
+#circle2 span:nth-child(2){/*99*/
     font-size:15px;
     position:absolute;
     left:85px;
     top:25px;
 }
-#circle2 span:nth-child(3) {
+#circle2 span:nth-child(3) {/*pln/msc*/
     font-size: 15px;
     position:absolute;
     left: 35px;
     top: 80px;
 }
-
-#standard div:nth-child(4){
+#standard div:nth-child(4){ /*pasek "zakup towar + dowóz*/
     background-color: #FFFFFF;
     height:35px;
     width:285px;
@@ -529,7 +451,7 @@ h2 {
     padding-top:10px;
 }
 
-#standard div:nth-child(5) {
+#standard div:nth-child(5) { /*pasek "serwis"*/
     background-color: #F1F1F1;
     height: 35px;
     width: 210px;
@@ -541,7 +463,7 @@ h2 {
     padding-left:120px;
     padding-top:10px;
 }
-#standard div:nth-child(6){
+#standard div:nth-child(6){/*pasek "gwarancja 5 lat*/
     background-color: #FFFFFF;
     height:35px;
     width:255px;
@@ -554,7 +476,7 @@ h2 {
     padding-top:10px;
 }
 
-#standard div:nth-child(7){
+#standard div:nth-child(7){/*przycisk "dołącz"*/
      background-color: #FFFFFF;
      height:25px;
      width:90px;
@@ -567,10 +489,9 @@ h2 {
      padding-left:30px;
      padding-top:10px;
      font-family: raleway-extrabold, sans-serif;
-
  }
 
-#advance {
+#advance { /*cennik lewy*/
     height:500px;
     width:330px;
     border: 3px solid #D8D8D8;
@@ -578,7 +499,7 @@ h2 {
     left: 720px;
     background-color:#F9F9F9;
 }
-#advance>p{
+#advance>p{ /*napis "advance plan"*/
     color:#27c7ab;
     font-size: 22px;
     position:absolute;
@@ -586,8 +507,7 @@ h2 {
     top:30px;
     font-weight:bold;
 }
-
-#point3 {
+#point3 { /*zawieszka cennika lewego*/
     height:60px;
     width:60px;
     border:3px solid #D8D8D8;
@@ -597,8 +517,7 @@ h2 {
     position:absolute;
     background-color:#FCFCFC;
 }
-
-#point3 div {
+#point3 div { /*kropka wewnątrz zawieszki*/
     height:25px;
     width:25px;
     border:3px solid #D8D8D8;
@@ -608,8 +527,7 @@ h2 {
     left:15px;
     top:14px;
 }
-
-#circle3 {
+#circle3 { /*lewe koło z ceną*/
     width:130px;
     height:130px;
     color:#C2C2C2;
@@ -620,32 +538,27 @@ h2 {
     border-radius:50%;
     background-color: #FFFFFF;
     font-family: raleway-bold, sans-serif;
-
 }
-
-#circle3 span:first-child{
+#circle3 span:first-child{/*2111*/
     font-size:45px;
     position:absolute;
     left:20px;
     top:35px;
-
 }
-
-#circle3 span:nth-child(2) {
+#circle3 span:nth-child(2) { /*00*/
     font-size: 15px;
     position:absolute;
     left: 90px;
     top: 30px;
 }
-#circle3 span:nth-child(3) {
+#circle3 span:nth-child(3) { /*pln/msc*/
     font-size: 15px;
     position:absolute;
     left: 25px;
     top: 80px;
 }
 
-
-#advance div:nth-child(4){
+#advance div:nth-child(4){/*pasek "zakup towar + dowóz*/
     background-color: #E4E4E4;
     height:35px;
     width:285px;
@@ -658,7 +571,7 @@ h2 {
     padding-top:10px;
 }
 
-#advance div:nth-child(5) {
+#advance div:nth-child(5) { /*pasek "serwis"*/
     background-color: #F1F1F1;
     height: 35px;
     width: 210px;
@@ -670,7 +583,7 @@ h2 {
     padding-left:120px;
     padding-top:10px;
 }
-#advance div:nth-child(6) {
+#advance div:nth-child(6) {/*pasek "gwarancja 5 lat*/
     background-color: #E4E4E4;
     height: 35px;
     padding-top:10px;
@@ -681,10 +594,8 @@ h2 {
     font-size:22px;
     font-weight: bold;
     color:#B4B4B4;
-
-
 }
-#advance div:nth-child(7) {
+#advance div:nth-child(7) {/*pasek "porady projektanta"*/
     background-color: #F1F1F1;
     height: 35px;
     width: 270px;
@@ -694,10 +605,9 @@ h2 {
     font-size:22px;
     font-weight: bold;
     color:#B4B4B4;
-
     padding-top:10px;
 }
-#advance div:nth-child(8){
+#advance div:nth-child(8){/*przycisk "dołącz"*/
     background-color: #27c7ab;
     height:25px;
     padding-top:10px;
@@ -710,22 +620,18 @@ h2 {
     font-size:14px;
     color:white;
     font-family: raleway-extrabold, sans-serif;
-
 }
 
-#contact {
+#contact { /*kontener zawierający sekcję kontakt*/
     height:540px;
     background-color:#FFFFFF;
     position:relative;
 }
-
-#left {
+#left { /*lewa część sekcji kontakt*/
     width:760px;
     float:left;
 }
-
-
-input {
+input {/*pola "imię" "nazwisko" "wiadomosć"*/
     height:70px;
     width:635px;
     border: 1px solid #27c7ab;
@@ -733,58 +639,47 @@ input {
     left:70px;
     font-size:28px;
     font-family: raleway-extralight, sans-serif;
-
 }
-
 input[name=imie]{
     position:absolute;
     top:115px;
-
-
 }
 input[name=email]{
     position:absolute;
     top:215px;
-
 }
 input[name=wiadomosc]{
     position:absolute;
     top:315px;
     height:190px;
 }
-
 ::-webkit-input-placeholder {
     color:#CDCDCD;
 }
-#right {
+
+#right {/*prawa część sekcji kontakt*/
     width:440px;
     float:left;
 }
-
-#right>img {
+#right>img { /*czerwony fotel*/
     position:absolute;
     top:110px;
     left:800px;
 }
-
-#right img:nth-child(2){
+#right img:nth-child(2){ "zdjęcie checkboxa"
     position:absolute;
     top:340px;
     left:760px;
     border:1px solid #27C7AB;
 }
-
-
-
-#right p{
+#right p{ /*napis obok checkboxa*/
     position:absolute;
     top: 350px;
     left:825px;
     font-family:ralewa-extralight, sans-serif;
     color:#CACACA;
 }
-
-input[name="submit"] {
+input[name="submit"] { /*wyślij*/
     width:340px;
     height:70px;
     background-color: #27c7ab;
@@ -803,23 +698,19 @@ input[name="submit"] {
     color:grey;
     padding-top:50px;
     padding-left:70px;
-
 }
-
-#container footer div {
+#container footer div { /* div zawierający znaki portali społecznościowych*/
     position:absolute;
     left:765px;
     top:40px;
-
 }
 
-#container footer p {
+#container footer p { /*napis sit on chair*/
     position:absolute;
     left:980px;
     top:50px;
     font-size:18px;
 }
-
 #container footer p span {
     font-weight: 800;
 }
