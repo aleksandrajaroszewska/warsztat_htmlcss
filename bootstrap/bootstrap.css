@@ -1,0 +1,10 @@
+.col-sm-4{
+    
+  background-color:yellow ; 
+    border: 1px solid blue;
+}
+
+.col-sm-1 {
+    background-color:greenyellow;
+    border: 1px solid green;
+}

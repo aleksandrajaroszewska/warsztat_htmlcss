@@ -1,0 +1,1023 @@
+#container {
+    width:1200px;
+    font-family:ralewaylight, sans-serif;
+}
+#top {/*górny czarny pasek*/
+    color:white;
+    height:40px;
+    background-color:black;
+    position:relative;
+}
+    #container #top p {/*napis "sit on chair*/
+     position:absolute;
+     top:10px;
+     left:60px;
+    }
+    #on {color:#27c7ab;
+    font-family: ralewayblack, sans-serif;
+    }
+
+nav {
+    position:absolute;
+    top:-8px;
+    left:830px;
+}
+    nav ul li {
+    display:inline-block;
+    padding:20px;
+    font-family:ralewaymedium, sans-serif;
+    font-size:14px;
+    }
+#menu {/*czarny kwadrat wskazujący nawigację*/
+
+    position:absolute;
+    top:55px;
+    left:5px;
+    background-color:black;
+    color:white;
+    width:120px;
+    height:95px;
+    font-size:15px;
+    z-index:100;
+    display:none;
+    
+}
+#pointer {/*wskaźnik kwadrata*/
+    width:13px;
+    height:13px;
+    background-color:black;
+    transform:rotate(45deg);
+    position:absolute;
+    top:-6px;
+    left:50px;
+}
+ .under {/*napisy w czarnym kwadracie*/
+    padding-top:8px;
+    padding-left:15px;
+    padding-bottom:10px;  
+     
+}
+
+.main {
+    height:500px;
+    position:relative;
+    background-color:background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(171,164,171,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(171,164,171,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(171,164,171,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(171,164,171,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(171,164,171,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(171,164,171,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#aba4ab', GradientType=0 );
+    
+}
+
+#second, #third
+    {
+    display:none;
+  }
+
+
+.arr1,.arr2 {/* divy w których znajdują się strzałki po prawej i lewej stronie czarnego fotela*/
+    display:block;
+    float:left;
+    height:480px;
+    width:140px;
+    position:relative;
+}
+.arr1 p {/*strzałka lewa*/
+    font-size:60px;
+    color:#24BA9F;
+    position:relative;
+    left:67px;
+    top:190px;
+}
+.arr2 p {/*strzałka prawa*/
+    font-size:60px;
+    color:#24BA9F;
+    position:relative;
+    left:77px;
+    top:190px;
+}
+.chair {/*div zawierający czarny fotel*/
+    display:block;
+    float:left;
+    height:480px;
+    width:378px;
+    position:relative;
+}
+.chair img {
+    position:relative;
+    top:90px;
+    left:-45px;
+}
+.text {/*pole tekstowe*/
+    display:block;
+    float:left;
+    height:260px;
+    width:500px;
+    position:relative;
+    top:130px;
+    left:30px;
+}
+h1 {/*sit on our chair*/
+    font-size:40px;
+    font-family: raleway-bold, sans-serif;
+    margin-left:60px;
+}
+h1 span {/*on*/
+    color:#27c7ab;
+}
+.text p {/*tekst*/
+    padding:30px;
+    font-family: ralewaylight, sans-serif;
+    text-align: center;
+    font-size:17px;
+    margin-top:10px;
+    line-height: 22px;
+}
+ .see {/* napis "zobacz więcej"*/
+     background-color:#24BA9F;
+     border-radius:10px;
+     height:43px;
+     width:230px;
+     margin-left:120px;
+     padding-top:20px;
+     padding-left:30px;
+     font-size:23px;
+     color:white;
+ }
+#triplet {/*konterner zawierający trzy boxy*/
+    height:360px;
+    width:1200px;
+    background-color:white;
+    position:relative;
+}
+.box img {/*zdjecie lewe*/
+    position:absolute;
+    left:65px;
+    top:30px;
+    height:227px;
+    width:328px;
+    float:left;
+}
+.box2 img{/*zdjęcie środkowe*/
+    height:227px;
+    width:328px;
+    position:absolute;
+    float:left;
+    top:30px;
+    left:420px;
+}
+#clair{/*pole wewnątrz zdjęcia lewego*/
+    height:60px;
+    width:312px;
+    position:absolute;
+    top:162px;
+    left:62px;
+    background-color: rgba(247,243,239, 0.5);
+    font-size:15px;
+    font-weight: bold;
+    font-family:raleway-extrabold, sans-serif;
+    padding-top:18px;
+    padding-left:18px;
+}
+#mar {/*pole wewnątrz zdjęcia środkowego*/
+    height:60px;
+    width:310px;
+    position:absolute;
+    top:162px;
+    left:420px;
+    background-color: rgba(247,243,239, 0.5);
+    font-size:15px;
+    font-weight: bold;
+    font-family: raleway-extrabold, sans-serif;
+    padding-top:18px;
+    padding-left:18px;
+}
+#inside1, #inside2, #inside3 {/*zielone paski*/
+    background-color: #24BA9F;
+    position:absolute;
+    top:33px;
+    height:7px;
+    width:136px;
+}
+#inside3 {
+    margin-left: 28px;
+    margin-top:22px;
+}
+.box3 {/*box z tekstem*/
+    height:253px;
+    width:342px;
+    border: 1px solid #DBDBDB;
+    float:left;
+    position:absolute;
+    left:775px;
+    top:30px;
+}
+h2 {
+    font-family: raleway-extrabold, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding:5px;
+    margin-bottom:5px;
+    margin-left: 25px;
+    margin-top:30px;
+}
+#boxtext1{/*pierwsza częś tekstu*/
+    display:block;
+    padding:10px;
+    margin-top:10px;
+    margin-left:15px;
+    color:#878787;
+    font-family: raleway-medium, sans-serif;
+}
+#boxtext2{/*druga częś tekstu*/
+    display:block;
+    padding:10px;
+    margin-left:15px;
+    color:#878787;
+    font-family: raleway-medium, sans-serif;
+}
+#price{/*sekcja cennik*/
+    height:725px;
+    background-color:#F1F1F1;
+    position:relative;
+}
+  h3 {/*napis "cennik"*/
+    font-weight: bold;
+    font-size:25px;
+    display:block;
+    margin-left:65px;
+    padding-top:45px;
+    padding-bottom: 10px;
+}
+
+#green_line {
+    margin-left:65px;
+    background-color: #27c7ab;
+    position:absolute;
+    height:11px;
+    width:324px;
+}
+#outside {/*kontener zawierający cenniki*/
+    height:600px;
+    position:absolute;
+    width:90%;
+    margin-left:50px;
+    margin-top:80px;
+}
+#basic {/*lewy cennik*/
+    height:500px;
+    width:330px;
+    border: 3px solid #D8D8D8;
+    position:absolute;
+    background-color: #F9F9F9;
+}
+#basic>p{
+    color:#27c7ab;
+    font-size: 22px;
+    position:absolute;
+    left:100px;
+    top:30px;
+    font-weight:bold;
+}
+#point1{ /*zawieszka lewego cennika*/
+    height:60px;
+    width:60px;
+    border:3px solid #D8D8D8;
+    border-radius: 50%;
+    margin-left: 130px;
+    margin-top:-50px;
+    position:absolute;
+    background-color:#FCFCFC;
+}
+#point1 div {/*kropka w zawieszce*/
+    height:25px;
+    width:25px;
+    border:3px solid #D8D8D8;
+    border-radius: 50%;
+    background-color: #C2C2C2;
+    position:absolute;
+    left:15px;
+    top:14px;
+}
+#circle1, #circle2, #circle3 {/*ceny w kołach*/
+    font-weight: 600;
+    position:absolute;
+}
+
+#circle1 { /*lewe koło z ceną*/
+    width:130px;
+    height:130px;
+    position:absolute;
+    top:80px;
+    left:100px;
+    color:#C5C5C5;
+    border: 3px solid #D3D3D3;
+    border-radius:50%;
+    background-color: #FFFFFF;
+    font-family: raleway-bold, sans-serif;
+}
+
+#circle1 span:first-child{/*8*/
+    font-size:45px;
+    position:absolute;
+    left:35px;
+    top:35px;
+}
+#circle1 span:nth-child(2){/*5*/
+    font-size:45px;
+    position:absolute;
+    left:60px;
+    top:40px;
+}
+#circle1 span:nth-child(3){/*99*/
+    font-size:15px;
+    position:absolute;
+    left:85px;
+    top:30px;
+}
+#circle1 span:nth-child(4) {/*pln/msc*/
+    font-size: 15px;
+    position:absolute;
+    left:30px;
+    top: 80px;
+}
+
+#basic div:nth-child(4){/*pasek -"zakup +dowóz"*/
+    background-color: #E4E4E4;
+    height:35px;
+    width:285px;
+    position:absolute;
+    top:245px;
+    font-size:22px;
+    font-weight: bold;
+    color:#B4B4B4;
+    padding-left:45px;
+    padding-top:10px;
+}
+#basic div:nth-child(5) { /*pasek "serwis"*/
+    background-color: #F1F1F1;
+    height: 35px;
+    width: 210px;
+    position: absolute;
+    top: 290px;
+    font-size:22px;
+    font-weight: bold;
+    color:#B4B4B4;
+    padding-left:120px;
+    padding-top:10px;
+}
+#basic div:nth-child(6){/*przycisk dołącz*/
+    background-color: #27c7ab;
+    height:22px;
+    padding-top:10px;
+    width:90px;
+    padding-left:30px;
+    position:absolute;
+    top:440px;
+    left:105px;
+    border-radius:8%;
+    font-size:14px;
+    color:white;
+    font-family: raleway-extrabold, sans-serif;
+
+}
+
+#standard { /*cennik środkowy*/
+    height:500px;
+    width:330px;
+    border: 3px solid #27C7AB;
+    position:absolute;
+    left:360px;
+    background-color: #27c7ab;
+}
+#standard>p{ /*napis standard plac*/
+    color:#FFFFFF;
+    font-size: 22px;
+    position:absolute;
+    left:80px;
+    top:30px;
+    font-weight:bold;
+}
+#point2 {/*zawieszka cennika środkowego*/
+    height:60px;
+    width:60px;
+    border:3px solid #27C7AB;
+    border-radius: 50%;
+    margin-left: 130px;
+    margin-top:-50px;
+    position:absolute;
+    background-color:#27C7AB;
+}
+#point2 div {/*kropka wewnątrz zawieszki*/
+    height:30px;
+    width:30px;
+    border:3px solid #27C7AB;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position:absolute;
+    left:13px;
+    top:13px;
+}
+#circle2 { /*koło w cenniku środkowym*/
+    width:130px;
+    height:130px;
+    top:80px;
+    left:100px;
+    border: 3px solid #27c7ab;
+    border-radius:50%;
+    background-color: #FFFFFF;
+    font-family: raleway-bold, sans-serif;
+    color:#27c7ab;
+}
+#circle2 span:first-child{/*95*/
+    font-size:45px;
+    position:absolute;
+    left:35px;
+    top:30px;
+}
+#circle2 span:nth-child(2){/*99*/
+    font-size:15px;
+    position:absolute;
+    left:85px;
+    top:25px;
+}
+#circle2 span:nth-child(3) {/*pln/msc*/
+    font-size: 15px;
+    position:absolute;
+    left: 35px;
+    top: 80px;
+}
+#standard div:nth-child(4){ /*pasek "zakup towar + dowóz*/
+    background-color: #FFFFFF;
+    height:35px;
+    width:285px;
+    position:absolute;
+    top:245px;
+    font-size:22px;
+    font-weight: bold;
+    color:#B4B4B4;
+    padding-left:45px;
+    padding-top:10px;
+}
+
+#standard div:nth-child(5) { /*pasek "serwis"*/
+    background-color: #F1F1F1;
+    height: 35px;
+    width: 210px;
+    position: absolute;
+    top: 290px;
+    font-size:22px;
+    font-weight: bold;
+    color:#B4B4B4;
+    padding-left:120px;
+    padding-top:10px;
+}
+#standard div:nth-child(6){/*pasek "gwarancja 5 lat*/
+    background-color: #FFFFFF;
+    height:35px;
+    width:255px;
+    position:absolute;
+    top:335px;
+    font-size:22px;
+    font-weight: bold;
+    color:#B4B4B4;
+    padding-left:75px;
+    padding-top:10px;
+}
+
+#standard div:nth-child(7){/*przycisk "dołącz"*/
+     background-color: #FFFFFF;
+     height:25px;
+     width:90px;
+     position:absolute;
+     top:440px;
+     left:105px;
+     border-radius: 8%;
+     font-size:14px;
+     color:#27c7ab;
+     padding-left:30px;
+     padding-top:10px;
+     font-family: raleway-extrabold, sans-serif;
+ }
+
+#advance { /*cennik lewy*/
+    height:500px;
+    width:330px;
+    border: 3px solid #D8D8D8;
+    position:absolute;
+    left: 720px;
+    background-color:#F9F9F9;
+}
+#advance>p{ /*napis "advance plan"*/
+    color:#27c7ab;
+    font-size: 22px;
+    position:absolute;
+    left:80px;
+    top:30px;
+    font-weight:bold;
+}
+#point3 { /*zawieszka cennika lewego*/
+    height:60px;
+    width:60px;
+    border:3px solid #D8D8D8;
+    border-radius: 50%;
+    margin-left: 130px;
+    margin-top:-50px;
+    position:absolute;
+    background-color:#FCFCFC;
+}
+#point3 div { /*kropka wewnątrz zawieszki*/
+    height:25px;
+    width:25px;
+    border:3px solid #D8D8D8;
+    border-radius: 50%;
+    background-color: #C2C2C2;
+    position:absolute;
+    left:15px;
+    top:14px;
+}
+#circle3 { /*lewe koło z ceną*/
+    width:130px;
+    height:130px;
+    color:#C2C2C2;
+    position:absolute;
+    top:80px;
+    left:100px;
+    border: 3px solid #D3D3D3;
+    border-radius:50%;
+    background-color: #FFFFFF;
+    font-family: raleway-bold, sans-serif;
+}
+#circle3 span:first-child{/*2111*/
+    font-size:45px;
+    position:absolute;
+    left:20px;
+    top:35px;
+}
+#circle3 span:nth-child(2) { /*00*/
+    font-size: 15px;
+    position:absolute;
+    left: 90px;
+    top: 30px;
+}
+#circle3 span:nth-child(3) { /*pln/msc*/
+    font-size: 15px;
+    position:absolute;
+    left: 25px;
+    top: 80px;
+}
+
+#advance div:nth-child(4){/*pasek "zakup towar + dowóz*/
+    background-color: #E4E4E4;
+    height:35px;
+    width:285px;
+    position:absolute;
+    top:245px;
+    font-size:22px;
+    font-weight:bold;
+    color:#B4B4B4;
+    padding-left:45px;
+    padding-top:10px;
+}
+
+#advance div:nth-child(5) { /*pasek "serwis"*/
+    background-color: #F1F1F1;
+    height: 35px;
+    width: 210px;
+    position: absolute;
+    top: 290px;
+    font-size:22px;
+    font-weight: bold;
+    color:#B4B4B4;
+    padding-left:120px;
+    padding-top:10px;
+}
+#advance div:nth-child(6) {/*pasek "gwarancja 5 lat*/
+    background-color: #E4E4E4;
+    height: 35px;
+    padding-top:10px;
+    width: 250px;
+    padding-left:80px;
+    position: absolute;
+    top: 335px;
+    font-size:22px;
+    font-weight: bold;
+    color:#B4B4B4;
+}
+#advance div:nth-child(7) {/*pasek "porady projektanta"*/
+    background-color: #F1F1F1;
+    height: 35px;
+    width: 270px;
+    padding-left:60px;
+    position: absolute;
+    top: 380px;
+    font-size:22px;
+    font-weight: bold;
+    color:#B4B4B4;
+    padding-top:10px;
+}
+#advance div:nth-child(8){/*przycisk "dołącz"*/
+    background-color: #27c7ab;
+    height:25px;
+    padding-top:10px;
+    width:90px;
+    padding-left:30px;
+    position:absolute;
+    top:440px;
+    left:105px;
+    border-radius: 8%;
+    font-size:14px;
+    color:white;
+    font-family: raleway-extrabold, sans-serif;
+}
+
+
+#create { /* sekcja stwórz swoje krzesło*/
+ width:1200px;
+ height:500px;
+ background-color:#F9F9F9;    
+}
+
+#create1 {
+    position:relative; 
+    width:1200px;
+    height:80px;
+}
+#side1, #side2{
+    margin-top:40px;
+    font-family: raleway-black, sans-serif;
+   
+}
+#side1{
+    
+    display:block;
+    float:left;
+    margin-left:40px;   
+}
+
+#side2{
+   
+    display:block;
+    float:right;
+    margin-right:40px;
+    
+}
+
+.line{
+    position:absolute;
+    width:180px;
+    height:6px;
+    background-color:#27c7ab;
+    margin-top:65px;
+    
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+.main_width{
+    margin-left:70px;
+}
+.application {
+  background-color: #f9f9f9;
+  padding:30px 0;
+}
+.application h3 {
+    margin-left:-5px;
+  color: #575757;
+  font-size: 18px;
+}
+
+.application header.align_right{
+  text-align: right;
+}
+
+
+.inline {
+  display:inline-block;
+  width:300px;
+  padding:14px;
+  vertical-align: top;
+}
+
+
+.formC {
+  margin-top:50px;
+}
+.drop_down_list {
+  border:1px solid #8de0d2;
+  width: 280px;
+  height:38px;
+  background-color: white;
+  margin-top:22px;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.list_label {
+  font-size: 30px;
+  color: #e2e2e2;
+  font-family: 'ralewaylight', Arial, Tahoma, sans-serif;
+}
+
+
+.checkbox {
+  position: relative;
+  padding: 30px 30px 30px 0;
+}
+.checkbox input {
+  display: block;
+  opacity: 0;
+  height: 48px;
+  position: absolute;
+  width: 48px;
+  cursor: pointer;
+}
+
+.checkbox label {
+  display: block;
+  padding-left: 65px;
+  position: relative;
+  font-size: 28px;
+  color: #cecece;
+  line-height: 120%;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.checkbox label::before, .checkbox label::after {
+  border: 1px solid #27c7ab;
+  content: "";
+  display: block;
+  left: 0;
+  height: 48px;
+  position: absolute;
+  width: 48px;
+  top: 0;
+}
+.checkbox label::after {
+  background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20preserveAspectRatio%3D%22xMidYMid%22%20width%3D%2233.875%22%20height%3D%2233%22%20viewBox%3D%220%200%2033.875%2033%22%3E%0A%20%20%3Cpath%20d%3D%22M9.470%2C15.209%20L14.061%2C24.104%20C14.061%2C24.104%2021.522%2C6.026%2033.287%2C-0.000%20C33.000%2C4.304%2031.852%2C8.035%2033.861%2C12.626%20C28.696%2C13.774%2018.078%2C26.687%2014.635%2C33.000%20C9.756%2C26.974%204.017%2C22.382%20-0.000%2C20.948%20L9.470%2C15.209%20Z%22%20fill%3D%22%2327c7ab%22/%3E%0A%3C/svg%3E%0A") no-repeat center;
+  border: 0;
+  display: none;
+}
+
+.checkbox input:checked + label::after {
+  display: block;
+}
+
+
+.active {
+  background: url('../images/form_ok.jpg');
+  width: 48px;
+  height: 40px;
+
+}
+.inline_text {
+  display: inline-block;
+  width: 228px;
+  vertical-align: top;
+  margin-top: 30px;
+  margin-left: 15px;
+  color: #aeaeae;
+}
+.image_part img{
+  margin-top: 110px;
+  margin-left: 38px;
+}
+
+
+.application .green_bell {
+  background-color: #24baa0;
+  width: 200px;
+  height: 6px;
+  display: inline-block;
+  margin: 5px 0 5px 0;
+}
+
+.summary_panel {
+  background-color: white;
+  width:100%;
+  height:195px;
+  padding:10px;
+  margin-top: 50px;
+
+}
+
+.application .green_button {
+  background-color: #27c7ab;
+  color: white;
+  text-align:center;
+  text-transform: uppercase;
+  width: 200px;
+  padding: 10px 30px;
+  font-size: 24px;
+  display: inline-block;
+  font-family: 'ralewaymedium', Arial, Tahoma, sans-serif;
+  margin-top: 20px;
+  margin-left: 29px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.panel_left {
+  display: inline-block;
+  width: 185px;
+  vertical-align: top;
+  padding-bottom:10px;
+  border-bottom:1px solid #e7e7e7;
+  height: 135px;
+}
+
+.panel_right {
+  display: inline-block;
+  width: 100px;
+  border-left:1px solid #e7e7e7;
+  text-align: right;
+  vertical-align: top;
+  padding-bottom:10px;
+  border-bottom:1px solid #e7e7e7;
+  height: 135px;
+}
+
+.panel_left h4 , .panel_right h4{
+  color: #24baa0;
+  font-size: 23px;
+}
+
+.panel_left span{
+  margin-top:10px;
+  font-size: 22px;
+  color: #5b5a5a;
+  display: block;
+}
+
+.panel_right span {
+  display: block;
+  font-size: 22px;
+  color: #24baa0;
+  margin-top:10px;
+}
+.sum_label{
+  display: inline-block;
+  width: 185px;
+  margin-top: 10px;
+  font-size: 22px;
+  color: #5b5a5a;
+}
+
+.sum {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  margin-top: 10px;
+  font-size: 22px;
+  color: #24baa0;
+}
+
+.list_arrow {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #24baa0;
+  display:block;
+  position: absolute;
+  right: 14px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.list_panel {
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 288px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  list-style: none;
+  margin: 0;
+  left: 0px;
+ 
+  position: absolute;
+  top: 54px;
+  opacity:0;
+}
+
+.showPanel{
+    opacity:1;
+    z-index:20;
+}
+
+.list_panel li {
+  margin-top:10px;
+  cursor: pointer;
+  color: #585858;
+}
+
+.title {
+  height: 30px;
+}
+
+
+
+
+
+
+#contact { /*kontener zawierający sekcję kontakt*/
+    height:540px;
+    background-color:#FFFFFF;
+    position:relative;
+}
+#left { /*lewa część sekcji kontakt*/
+    width:760px;
+    float:left;
+}
+input {/*pola "imię" "nazwisko" "wiadomosć"*/
+    height:70px;
+    width:635px;
+    border: 1px solid #27c7ab;
+    position:absolute;
+    left:70px;
+    font-size:28px;
+    font-family: raleway-extralight, sans-serif;
+}
+input[name=imie]{
+    position:absolute;
+    top:115px;
+}
+input[name=email]{
+    position:absolute;
+    top:215px;
+}
+input[name=wiadomosc]{
+    position:absolute;
+    top:315px;
+    height:190px;
+}
+::-webkit-input-placeholder {
+    color:#CDCDCD;
+}
+
+#right {/*prawa część sekcji kontakt*/
+    width:440px;
+    float:left;
+}
+#right>img { /*czerwony fotel*/
+    position:absolute;
+    top:110px;
+    left:800px;
+}
+#right img:nth-child(2){ "zdjęcie checkboxa"
+    position:absolute;
+    top:340px;
+    left:760px;
+    border:1px solid #27C7AB;
+}
+#right p{ /*napis obok checkboxa*/
+    position:absolute;
+    top: 350px;
+    left:825px;
+    font-family:ralewa-extralight, sans-serif;
+    color:#CACACA;
+}
+input[name="submit"] { /*wyślij*/
+    width:340px;
+    height:70px;
+    background-color: #27c7ab;
+    border-radius: 8%;
+    position:absolute;
+    left:760px;
+    top:420px;
+    font-weight:100;
+    color:#FFFFFF;
+}
+
+#container footer {
+    position:relative;
+    height:40px;
+    font-size:15px;
+    color:grey;
+    padding-top:50px;
+    padding-left:70px;
+}
+#container footer div { /* div zawierający znaki portali społecznościowych*/
+    position:absolute;
+    left:765px;
+    top:40px;
+}
+
+#container footer p { /*napis sit on chair*/
+    position:absolute;
+    left:980px;
+    top:50px;
+    font-size:18px;
+}
+#container footer p span {
+    font-weight: 800;
+}

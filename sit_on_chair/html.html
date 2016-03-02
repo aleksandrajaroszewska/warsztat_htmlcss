@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>warsztaty</title>
+    <script src="jquery-2.1.4.min.js"></script>
+    <script type ="text/javascript" src="warsztaty.js"></script>
+    <link type="text/css" rel="stylesheet" href="reset.css"/>
+    <link type="text/css" rel="stylesheet" href="add.css"/>
+    <link type="text/css" rel="stylesheet" href="css.css"/>
+</head>
+    
+<body>
+<div id="container"> <!--kontener zawierający całą stronę-->
+
+<div id="top"> <!--górny czarny pasek-->
+    <p>
+        <span>SIT</span>
+        <span id="on">ON</span>
+        <span>CHAIR</span>
+    </p>
+    <nav>
+    <ul>
+        <li id="show"> O FIRMIE
+           <div id="menu"> <!--podmenu-->
+            <ul>
+                <li class="under">Aktualności</li>
+                <li class="under">Nasz team</li>
+                <li class="under">Historia</li>
+            </ul>
+                   <div id="pointer"> </div> <!-- kwadracik wskazujący-->
+            </div> </li>
+        <li> GALERIA </li>
+        <li> KONTAKT </li>
+    </ul>
+    </nav>
+</div>
+<div id="slider">
+   
+<section class="main" id="first"><!--część z czarnym fotelem-->
+  
+    <div class="arr1" > <!-- lewy zielony wskaźnik obok czarnego fotela-->
+        <p id="left1"><</p>
+    </div>
+    <div class="chair"><img src="black_chair.png"></div>
+    <div class="text">
+      <h1>SIT <span>ON</span> OUR <span>CHAIR</span></h1>
+        <p> Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis.
+            Maecenas malesuada elit lectus felis, malesuada ultricies.
+            Curabitur et ligula. Ut molestie a, ultricies porta urna. </p>
+        <div class="see">ZOBACZ WIECEJ</div>
+     </div>
+    <div class="arr2" > <p id="right1">> </p> </div> <!--prawy zielony wskaźnik obok fotela-->
+</section>
+    
+<section class="main" id="second"> <!--część z pomarańczowym fotelem-->
+  
+    <div class="arr1"> <!-- lewy zielony wskaźnik obok czarnego fotela-->
+        <p><</p>
+    </div>
+    <div class="chair"><img src="orange.png"></div>
+    <div class="text">
+      <h1>SIT <span>ON</span> OUR <span>CHAIR</span></h1>
+        <p> Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis.
+            Maecenas malesuada elit lectus felis, malesuada ultricies.
+            Curabitur et ligula. Ut molestie a, ultricies porta urna. </p>
+        <div class="see">ZOBACZ WIECEJ</div>
+     </div>
+    <div class="arr2"> <p id="right2">> </p> </div> <!--prawy zileony wskaźnik obok fotela-->
+</section>
+    
+<section class="main" id="third"> <!--część z czerwonym fotelem-->
+  
+    <div class="arr1"> <!-- lewy zielony wskaźnik obok czarnego fotela-->
+        <p><</p>
+    </div>
+    <div class="chair"><img src="red.png"></div>
+    <div class="text">
+      <h1>SIT <span>ON</span> OUR <span>CHAIR</span></h1>
+        <p> Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis.
+            Maecenas malesuada elit lectus felis, malesuada ultricies.
+            Curabitur et ligula. Ut molestie a, ultricies porta urna. </p>
+        <div class="see">ZOBACZ WIECEJ</div>
+     </div>
+    <div class="arr2"> <p id="right3">> </p> </div> <!--prawy zileony wskaźnik obok fotela-->
+</section>
+
+    
+<section id="triplet"> <!--część zawierająca trzy boxy obok siebie-->
+<div class="box"> <img src="box1_img.jpg"> <!--zdjęcie lewe-->
+    <div id="clair" class="lll"> Chair CLAIR <!--wewnętrzny napis-->
+         <div id="inside1"></div> <!--zielony pasek-->
+    </div>
+</div>
+<div class="box2"><img src="box2_img.jpg"> <!--zdjęcie środkowe-->
+    <div id="mar" class="lll"> Chair MARGARITA <!--wewnętrzny napis-->
+        <div id="inside2"></div><!--zielony pasek-->
+    </div>
+</div>
+<div class="box3"> <!--box z tekstem-->
+ <h2>Find all inputs</h2>
+ <div id="inside3"></div> <!--zielony pasek-->
+    <p id="boxtext1">Find all inputs that are not checked and highlights the next sibling span. Notice there is no change when clicking
+        the checkboxes since no clicks events have been linked.
+         </p>
+    <p id="boxtext2">Notice there is no change when clicking
+        the checkboxes since no clicks events have been
+        </p>
+</div>
+</section>
+</div>
+    
+<section id="price">
+    <h3>CENNIK</h3>
+    <div id="green_line"></div>
+    <div id="outside"> <!-- div zawierający trzy cenniki-->
+        <div id="basic">
+            <p>BASIC PLAN</p>
+            <div id="point1"> <!-- zawieszka lewego cennika-->
+                <div></div>
+            </div>
+            <div id="circle1"> <span>8</span><span>5</span><span>99</span><span>PLN/MSC</span></div> <!--koło z ceną-->
+            <div>Zakup towaru + dowóz</div>
+            <div>Serwis</div>
+            <div>DOŁĄCZ</div>
+        </div>
+        <div id="standard">
+            <p>STANDARD PLAN</p>
+            <div id="point2"> <!-- zawieszka środkowego cennika-->
+                <div></div>
+            </div>
+            <div id="circle2"><span>95</span><span>99</span><span>PLN/MSC</span></div><!--koło z ceną-->
+            <div>Zakup towaru + dowóz</div>
+            <div>Serwis</div>
+            <div>Gwarancja 5 lat</div>
+            <div>DOŁĄCZ</div>
+        </div>
+        <div id="advance">
+            <p>ADVANCE PLAN</p>
+            <div id="point3"> <!-- zawieszka prawego cennika-->
+                <div></div>
+            </div>
+            <div id="circle3"><span>211</span><span>00</span><span>PLN/MSC</span></div><!--koło z ceną-->
+            <div>Zakup towaru + dowóz</div>
+            <div>Serwis</div>
+            <div>Gwarancja 5 lat</div>
+            <div>Porady Projektanta</div>
+            <div>DOŁĄCZ</div>
+        </div>
+    </div>
+</section>
+    
+ <section class="application ">
+    <div class="main_width">
+     <section class="choice_part inline">
+        <header>
+            <h3>SKOMPONUJ SWOJE KRZESŁO</h3>
+            <span class="green_bell"></span>
+        </header>
+
+        <div class="formC">
+                
+        <div class="drop_down_list" id="drop1">
+            <span class="list_label" id="label1">Wybierz rodzaj</span>
+            <span class="list_arrow"></span>
+              <ul class="list_panel" id="panel1">
+                <li data-value="200">Clair</li>
+                <li data-value="150">Margarita</li>
+                <li data-value="100">Selena</li>
+              </ul>
+        </div>
+                
+        <div class="drop_down_list" id="drop2">
+            <span class="list_label" id="label2">Wybierz kolor</span>
+            <span class="list_arrow"></span>
+            <ul class="list_panel" id="panel2">
+                <li data-value="10">Czerwony</li>
+                <li data-value="20">Czarny</li>
+                <li data-value="30">Pomarańczowy</li>
+            </ul>
+        </div>
+        <div class="drop_down_list" id="drop3">
+            <span class="list_label" id="label3">Wybierz materiał</span>
+            <span class="list_arrow"></span>
+            <ul class="list_panel" id="panel3">
+                <li data-value="100">Tkanina</li>
+                <li data-value="500">Skóra</li>
+            </ul>
+        </div>
+                <div class="checkbox check-box">
+                    <input type="checkbox" id="transport" data-transport-price="200">
+                    <label for="transport">Transport</label>
+                </div>
+                <!--<div class="checkbox"></div>-->
+                <!--<span class="list_label inline_text">Transport</span>-->
+            </div>
+        </section>
+
+        <section class="image_part inline">
+            <img src="red_chair.png">
+        </section>
+
+        <section class="summary_part inline">
+            <header class="align_right">
+                <h3>PODSUMOWANIE</h3>
+                <span class="green_bell"></span>
+            </header>
+
+            <div class="summary_panel">
+                <div class="panel_left">
+                    <h4 class="title">Twój fotel</h4>
+                    <span class="name"></span>
+                    <span class="color"></span>
+                    <span class="pattern"></span>
+                    <span class="transport"></span>
+                </div>
+                <div class="panel_right">
+                    <h4 class="title value"></h4>
+                     <span class="name_value"></span>
+                    <span class="color_value"></span>
+                    <span class="pattern_value"></span>
+                    <span class="transport_value"></span>
+                </div>
+                <div class="sum_label">SUMA</div>
+                <div class="sum"><strong></strong></div>
+            </div>
+            <a href="" class="green_button">Zamawiam</a>
+        </section>
+    </div>
+</section>
+   
+
+<section id="contact">
+    <div id="left">
+        <h3>KONTAKT</h3>
+        <div id="green_line"></div>
+        <form>
+            <input type="text" name="imie" placeholder="Imię">
+            <input type="text" name="email" placeholder="Nazwisko">
+            <input type="text" name="wiadomosc" placeholder="Wiadomość">
+        </form>
+    </div>
+    <div id="right">
+          <img src="red_chair.png">
+          <img src="form_ok.jpg">
+          <p>Zgadzam się na przetwarzanie<br>danych osoowych</p>
+          <form>
+              <input type=submit name="submit" value="WYŚLIJ">
+          </form>
+          <form></form>
+    </div>
+</section>
+
+<footer>
+Copyright 2014 | All rights reserved. - Sit On Chair
+    <div>
+        <img src="flickr.png">
+        <img src="vimeo.png">
+        <img src="pinterest.png">
+        <img src="twitter.png">
+    </div>
+<p>SIT <span>ON</span> CHAIR</p>
+</footer>
+
+</div>
+
+</body>
+</html>
