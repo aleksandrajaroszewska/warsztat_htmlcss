@@ -1,0 +1,105 @@
+//komentarz niewidoczny
+/*komentarz widoczny */
+
+@import "variables";
+@import "mixin";
+
+$main-height:50px;
+$main-size:40px;
+
+* {
+   line-height:$main-height;
+    font-size:$main-size;
+}
+    
+
+.title {
+    background-color:yellow;
+    color:$mainColor; 
+    
+    
+}
+
+nav div {
+    border:1px solid orange;
+    &:hover {
+        background-color:deepskyblue;
+    }
+    width:80px;
+    height:40px;
+    float:left;
+    &:last-child{
+        float:right;
+    }
+    
+}
+
+ul {
+    color:$mainColor;
+    clear:both;
+}
+
+ul li{
+    @include border(5px);
+    &:first-child {
+      color:orange;
+    }  
+     &:hover {
+      color:red;
+    }
+   background-color:springgreen;   
+}
+
+@for $i from  1 through 4 {
+   
+    .h-#{$i} { font-size:$main-size - ($i*1.3)    
+    }
+    .h-#{$i} {line-height:$main-height - ($i*1.3)
+    }
+}
+
+.container div {
+    width:300px;
+    height:80px; 
+    margin-left:200px;
+    margin-bottom:10px;
+    border-radius:5px;
+    
+}
+
+@for $i from  1 through 10 {
+    @if ($i % 2 == 0){
+    .block-#{$i} { border:1px solid orange;}
+    } @else {
+    .block-#{$i} { border:1px solid blue;}
+    }
+}
+
+%box{
+    width:400px;
+    height:100px;
+    border-radius:8px;
+}
+
+$colors:(
+    success:greenyellow,
+    error:orangered,
+    info:skyblue,
+);
+
+
+.success {
+    @extend  %box;
+    background-color: map-get($colors, success); 
+}
+.error {
+    @extend  %box;
+    background-color: map-get($colors, error); 
+}
+.info {
+    @extend  %box;
+    background-color: map-get($colors, info); 
+}
+
+
+
