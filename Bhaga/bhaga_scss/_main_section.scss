@@ -6,7 +6,7 @@
   height:1100px;
     
     
- .grid {
+  .grid {
     
         position:relative;
         width:100%;
@@ -14,8 +14,8 @@
         height: 1100px;
         
       /*vertical - ustawianie w linii pionowej*/  
-    .mid{ 
-     .box{
+    .mid{ /*środkowe kształty*/
+      .box{
          position:absolute;
          top:540px;
          width:167px;
@@ -25,16 +25,16 @@
         position:absolute;
         &:nth-child(2){
         top:35px;              
-            }
+                      }
            }        
         p{
           top:115px;  
-        }
+         }
          
-     }
-         } 
+       }
+     } 
         
-     .bot{ 
+     .bot { /*dolne kształty*/
          .box{
          position:absolute;
          top:760px;
@@ -63,7 +63,7 @@
            } 
      }
      /*ustawianie w linii poziomej*/
-     .first {
+     .first { 
          .box{
          img:nth-child(2){
              left:56px;}
